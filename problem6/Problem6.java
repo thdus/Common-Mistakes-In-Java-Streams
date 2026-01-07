@@ -9,7 +9,7 @@ public class Problem6 {
 
 	public static void main(String[] args) {
 
-		//4. Neglecting Thread Safety:Mistake
+		//6. Neglecting Thread Safety:Mistake
 		/*
 		 * 기사 내용: mutable한 공유 자원을 조작할 때 parallel streams를 사용하면 race condition 발생 가능
 		 * 
@@ -76,3 +76,4 @@ public class Problem6 {
 	}
 
 }
+
