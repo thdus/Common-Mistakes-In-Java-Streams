@@ -127,8 +127,8 @@ String result =
          .findFirst()
          .orElse("No name starts with Z");
 ```
-### isPresent() 또는 orElse() 사용 권장
-### orElse() 사용 시 성능 차이는 유의미하지 않음
+isPresent() 또는 orElse() 사용 권장
+orElse() 사용 시 성능 차이는 유의미하지 않음
 
 ## 6️⃣ Parallel Stream에서 스레드 안전성 무시
 
