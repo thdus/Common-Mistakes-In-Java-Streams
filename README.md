@@ -20,7 +20,7 @@ Java Stream API는 코드 가독성과 선언형 프로그래밍을 크게 향�
 
 ###  문제
 Stream은 **종료 연산이 호출되어야 실행**됩니다.  
-`filter()` 같은 중간 연산만 호출하면 Stream은 실제로 동작하지 않습니다.
+filter() 같은 중간 연산만 호출하면 Stream은 실제로 동작하지 않습니다.
 
 ```java
 names.stream()
