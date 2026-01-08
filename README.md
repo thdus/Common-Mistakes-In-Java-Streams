@@ -18,6 +18,8 @@ Java Stream API는 코드 가독성과 선언형 프로그래밍을 크게 향�
 ---
 
 
+
+
 ## 1️⃣ 종료 연산을 호출하지 않는 경우
 
 ###  문제
@@ -38,6 +40,8 @@ names.stream()
 
 - 중간 연산의 반환 타입은 Stream
 - 종료 연산의 반환 타입은 Stream이 아님
+
+
 
 
 ## 2️⃣ Stream 처리 중 원본 자료구조 변경
@@ -66,6 +70,8 @@ List<String> filtered =
 -  결과는 새로운 컬렉션으로 생성
 
 
+
+
 ## 3️⃣ Parallel Stream 오버헤드 무시
 
 ### 문제
@@ -82,6 +88,8 @@ numbers.parallelStream()
 -  데이터 수가 적거나 연산이 가벼운 경우
 -  I/O 작업 또는 공유 자원 접근이 있는 경우
 -  대용량 데이터 + CPU 연산 위주일 때만 고려
+
+
 
 
 ## 4️⃣ 중간 연산 과도 사용으로 인한 성능 저하
@@ -111,6 +119,8 @@ names.stream()
 가독성보다 성능이 중요한 경우 연산 통합 고려
 
 
+
+
 ## 5️⃣ Optional 값 존재 여부 확인 없이 사용
 
 ### 문제
@@ -135,6 +145,8 @@ String result =
 ```
 isPresent() 또는 orElse() 사용 권장
 orElse() 사용 시 성능 차이는 유의미하지 않음
+
+
 
 
 ## 6️⃣ Parallel Stream에서 스레드 안전성 무시
