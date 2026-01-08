@@ -142,7 +142,7 @@ List<Integer> results = new ArrayList<>();
 numbers.parallelStream()
        .forEach(n -> results.add(n * 2));
 ```
-### 🔍 결과
+### 결과
 예상 크기: 10000
 실제 결과: 매 실행마다 다름
 
