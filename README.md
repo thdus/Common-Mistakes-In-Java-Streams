@@ -34,8 +34,8 @@ names.stream()
      .filter(name -> name.startsWith("A"))
      .forEach(System.out::println);
 
-✔️ 중간 연산의 반환 타입은 Stream
-✔️ 종료 연산의 반환 타입은 Stream이 아님
+- 중간 연산의 반환 타입은 Stream
+- 종료 연산의 반환 타입은 Stream이 아님
 
 ## 2️⃣ Stream 처리 중 원본 자료구조 변경
 
