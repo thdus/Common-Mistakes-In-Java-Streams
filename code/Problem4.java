@@ -42,9 +42,10 @@ public class Problem4 {
 									.filter(v -> (v.length() > 3) && v.contains("U"))
 									.toList();
 		long endTime2 = System.nanoTime();
-		System.out.println(datas1);
+		System.out.println(datas2);
 		System.out.println("Intermediate Operations 한번씩만 사용 시 : " + (double)(endTime2 - startTime2)/1_000_000_000);
 		
 	}
 
 }
+
